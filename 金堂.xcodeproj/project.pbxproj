@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		99197F2D1CAE7EB20013D1C0 /* practiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99197F2C1CAE7EB20013D1C0 /* practiceTableViewController.m */; };
+		99197F301CAE8EFA0013D1C0 /* practice2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99197F2F1CAE8EFA0013D1C0 /* practice2ViewController.m */; };
 		9947634B1CAB6CAF008B4E57 /* foundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9947634A1CAB6CAF008B4E57 /* foundViewController.m */; };
 		994763B11CAB7BA4008B4E57 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994763B01CAB7BA4008B4E57 /* CoreTelephony.framework */; };
 		994763B31CAB7BB1008B4E57 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 994763B21CAB7BB1008B4E57 /* SystemConfiguration.framework */; };
@@ -89,6 +90,8 @@
 		63FCEF84EADC805EF927E3C6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		99197F2B1CAE7EB20013D1C0 /* practiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = practiceTableViewController.h; sourceTree = "<group>"; };
 		99197F2C1CAE7EB20013D1C0 /* practiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = practiceTableViewController.m; sourceTree = "<group>"; };
+		99197F2E1CAE8EFA0013D1C0 /* practice2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = practice2ViewController.h; sourceTree = "<group>"; };
+		99197F2F1CAE8EFA0013D1C0 /* practice2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = practice2ViewController.m; sourceTree = "<group>"; };
 		994763491CAB6CAF008B4E57 /* foundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foundViewController.h; sourceTree = "<group>"; };
 		9947634A1CAB6CAF008B4E57 /* foundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foundViewController.m; sourceTree = "<group>"; };
 		994763B01CAB7BA4008B4E57 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -372,6 +375,8 @@
 				998DA6D51CAA6AE2006808FF /* chatViewController.h */,
 				99197F2B1CAE7EB20013D1C0 /* practiceTableViewController.h */,
 				99197F2C1CAE7EB20013D1C0 /* practiceTableViewController.m */,
+				99197F2E1CAE8EFA0013D1C0 /* practice2ViewController.h */,
+				99197F2F1CAE8EFA0013D1C0 /* practice2ViewController.m */,
 				998DA6D61CAA6AE2006808FF /* chatViewController.m */,
 				9947640C1CABD9B5008B4E57 /* enrollViewController.h */,
 				9947640D1CABD9B5008B4E57 /* enrollViewController.m */,
@@ -617,6 +622,7 @@
 				994763D51CAB7E2A008B4E57 /* qrspec.c in Sources */,
 				9947634B1CAB6CAF008B4E57 /* foundViewController.m in Sources */,
 				994763F41CAB8709008B4E57 /* loginViewController.m in Sources */,
+				99197F301CAE8EFA0013D1C0 /* practice2ViewController.m in Sources */,
 				994763D41CAB7E2A008B4E57 /* qrinput.c in Sources */,
 				994763D21CAB7E2A008B4E57 /* QRCodeGenerator.m in Sources */,
 				998DA6D71CAA6AE2006808FF /* chatViewController.m in Sources */,
