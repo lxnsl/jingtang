@@ -1,0 +1,39 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B5452F69774D0B48ABF5D6B8D30C9FD3DFE35E32",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "176ce5f2-6d0b-4cc8-95fe-4c993e769986" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BE9B0AB31626F77ED681CD0492DF422BBDB6ADA0" : 0,
+    "176ce5f2-6d0b-4cc8-95fe-4c993e769986" : 0,
+    "B5452F69774D0B48ABF5D6B8D30C9FD3DFE35E32" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1B3CA431-CFDA-4208-8352-451C385EF943",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BE9B0AB31626F77ED681CD0492DF422BBDB6ADA0" : "..\/..\/..\/Volumes\/DATA\/File\/SuccessProjcet\/YunHouDemo",
+    "176ce5f2-6d0b-4cc8-95fe-4c993e769986" : "..\/..\/..\/Volumes\/DATA\/%E6%9C%AA%E5%91%BD%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9\/TeamDemo",
+    "B5452F69774D0B48ABF5D6B8D30C9FD3DFE35E32" : "%E9%87%91%E5%A0%82\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "金堂",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "金堂.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/198.71.81.221:3612\/ComeSoon",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "176ce5f2-6d0b-4cc8-95fe-4c993e769986"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SDKJtechnology\/-2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5452F69774D0B48ABF5D6B8D30C9FD3DFE35E32"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SDKJtechnology\/-2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BE9B0AB31626F77ED681CD0492DF422BBDB6ADA0"
+    }
+  ]
+}

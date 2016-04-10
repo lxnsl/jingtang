@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface enrollViewController : UIViewController
+/** 验证码倒计时的时长 */
+@property (nonatomic, assign) NSInteger durationOfCountDown;
 
 @end

@@ -10,9 +10,14 @@
 #import <Masonry.h>
 #import "chatViewController.h"
 #import "enrollViewController.h"
+#import "UMSocial.h"
+
+#define kUMKey    @"5657f8a367e58e3b660032d7"
 @interface loginViewController ()<UITextFieldDelegate>
 @property(nonatomic,strong)UIView *backgroundView;
 @property(nonatomic,retain)UIBarButtonItem *titleItem;
+
+
 
 @end
 
@@ -181,12 +186,17 @@
     }];
     
                
-    
-    
-    
-}
+   }
 -(void)clickqq:(UIButton *)sender{
     NSLog(@"这是你点的qq所要触发的事件");
+    UMSocialSnsPlatform *snsPlatform = [UMSocialSnsPlatformManager getSocialPlatformWithName:UMShareToQQ];
+    snsPlatform.loginClickHandler(self,[UMSocialControllerService defaultControllerService],YES,^(UMSocialResponseEntity *response){
+        if (response.responseCode == UMSResponseCodeSuccess) {
+            UMSocialAccountEntity *snsAccount = [[UMSocialAccountManager socialAccountDictionary] valueForKey:UMShareToQQ];
+            NSLog(@"username is %@, uid is %@, token is %@ url is %@",snsAccount.userName,snsAccount.usid,snsAccount.accessToken,snsAccount.iconURL);
+        }});
+    
+    
 }
 -(void)clickweixin:(UIButton *)sender{
     NSLog(@"这是一个微信号");
